@@ -1,8 +1,14 @@
 # typhonjs-overview
 
-In short TyphonJS is a platform for modern web app development focusing not only on framework concerns, but also providing fully featured pipelines for integrated container (rkt / Kubernetes) deployment built on top of JSPM / SystemJS including maintenance and monitoring solutions. In addition integrated deployment options for desktop apps via Electron is available now and Cordova is forthcoming. For web apps at the heart lies a modernized version of Backbone / [backbone-es6](https://github.com/typhonjs-backbone/backbone-es6) and related extensions for Parse ([backbone-parse-es6](https://github.com/typhonjs-backbone-parse/backbone-parse-es6)), Firebase (forthcoming), Meteor (halfway there) and SocketStream (forthcoming). The toolchain should be applicable to any web app framework that can leverage JSPM / SystemJS. TyphonJS is a multi-organization / repo effort being open sourced under the MPLv2.0 license. Please bear with us while the tooling and various framework integrations are completed. A complete TDD approach with tests for every repo along with full documentation is already availble for most repos. 
+In short TyphonJS is a platform for modern mobile & web app development focusing not only on framework concerns, but also providing fully featured pipelines for integrated container (rkt / Kubernetes) deployment for server / database resources and web apps built on top of JSPM / SystemJS including maintenance and monitoring solutions. 
 
-Below is an overview of all of the TyphonJS organizations / repos as of March 7th 2016. ETA of an official public launch is end of May. 
+For Javascript web apps integrated deployment options to convert them to desktop apps via Electron is available now and Cordova for direct mobile deployment is forthcoming. TyphonJS provides a modernized version of Backbone / [backbone-es6](https://github.com/typhonjs-backbone/backbone-es6) and related extensions for Parse ([backbone-parse-es6](https://github.com/typhonjs-backbone-parse/backbone-parse-es6)), Firebase (forthcoming), Meteor (halfway there) and SocketStream (forthcoming). In addition a forthcoming complete component library for building Material Design web apps is provided on top of backbone-es6. However, the larger toolchain should be applicable to any web app framework that can leverage JSPM / SystemJS. 
+
+For native mobile apps TyphonJS provides a pipeline for container based deployment of server / database backends for cloud hosted solutions primarily Parse, Meteor and SocketStream. 
+
+TyphonJS is a multi-organization / repo effort being open sourced under the MPLv2.0 license. A multi org / repo toolchain is currently in development to support TyphonJS and beyond. This approach allows various modules / components of TyphonJS to be mixed and matched more easily. Please bear with us while the tooling and various framework integrations are completed. Full documentation and testing resources are already provided in most repos. ETA of an official public launch with tutorials and web site is end of May. 
+
+Below is an overview of all of the TyphonJS organizations / repos as of March 7th 2016. 
 
 ----------------
 
