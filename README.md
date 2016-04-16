@@ -1,14 +1,14 @@
 # typhonjs-overview
 
-In short TyphonJS is a platform for modern mobile & web app development focusing not only on framework concerns, but also providing fully featured pipelines for integrated container (rkt / Kubernetes) deployment for server / database resources and web apps built on top of JSPM / SystemJS including maintenance and monitoring solutions. In addition for Javascript web apps integrated deployment options to convert them to desktop apps via Electron is available now and Cordova for direct mobile deployment is forthcoming. 
+In short TyphonJS is a platform for modern mobile & web app development focusing not only on framework concerns, but also providing fully featured pipelines for integrated container deployment for server / database resources and web apps built on top of JSPM / SystemJS including maintenance and monitoring solutions via <a href="https://coreos.com/rkt/" target="_blank">rkt</a> / <a href="http://kubernetes.io/" target="_blank">Kubernetes</a> / <a href="http://rancher.com/" target="_blank">Rancher</a>. In addition for Javascript web apps integrated deployment options to convert them to desktop apps via Electron is available now and Cordova for direct mobile deployment is forthcoming. 
 
 TyphonJS provides a modernized version of Backbone / [backbone-es6](https://github.com/typhonjs-backbone/backbone-es6) and related extensions for Parse ([backbone-parse-es6](https://github.com/typhonjs-backbone-parse/backbone-parse-es6)), Firebase (forthcoming), Meteor (halfway there) and SocketStream (forthcoming). In addition a forthcoming complete component library for building Material Design web apps is provided on top of backbone-es6. However, the larger toolchain should be applicable to any web app framework that can leverage JSPM / SystemJS. 
 
 For native mobile apps TyphonJS provides a pipeline for container based deployment of server / database backends for cloud hosted solutions primarily Parse, Meteor and SocketStream. 
 
-TyphonJS is a multi-organization / repo effort being open sourced under the MPLv2.0 license. A multi org / repo toolchain is currently in development to support TyphonJS and beyond. This approach allows various modules / components of TyphonJS to be mixed and matched more easily. Please bear with us while the tooling and various framework integrations are completed. Full documentation and testing resources are already provided in most repos. ETA of an official public launch with tutorials and web site is end of May. 
+TyphonJS is a multi-organization / repo effort being open sourced under the MPLv2.0 license. A multi org / repo toolchain is currently in development to support TyphonJS and beyond. This approach allows various modules / components of TyphonJS to be mixed and matched more easily. In many ways TyphonJS provides the glue between various important open source development / deployment tooling along with providing additional first party components. All Javascript source code is fully documented and is modern ES6 written in a standard idiomatic style. Please bear with us while the tooling and various framework integrations are completed. Full documentation and testing resources are already provided in most repos and a universal automated documentation repo / web site will be available soon. ETA of an official public launch with tutorials and web site is Q3 '16. 
 
-Below is an overview of all of the TyphonJS organizations / repos as of March 7th 2016. 
+Below is an overview of all of the TyphonJS organizations / repos as of April 16th 2016. 
 
 ----------------
 
@@ -66,7 +66,7 @@ Below is an overview of all of the TyphonJS organizations / repos as of March 7t
 
 [typhonjs-demos-test](https://github.com/typhonjs-demos-test) - Provides testing repos specific to issues related to TyphonJS.
 
-   - [istanbul-jspm-coverage-example](https://github.com/typhonjs-demos-test/istanbul-jspm-coverage-example) - Presently Istanbul doesn't have a hook for coverage of tests using JSPM; this is a test repo.
+   - [istanbul-jspm-coverage-example](https://github.com/typhonjs-demos-test/istanbul-jspm-coverage-example) - Provides an example of instrumenting JSPM / SystemJS for code coverage with Istanbul / Mocha.
    - [typhonjs-issues-demos](https://github.com/typhonjs-demos-test/typhonjs-issues-demos) - Provides various demos for issues raised with all TyphonJS repos.
 
 [typhonjs-docs](https://github.com/typhonjs-docs) - Provides all versioned docs, specs, and governance repos. 
@@ -91,6 +91,7 @@ Below is an overview of all of the TyphonJS organizations / repos as of March 7t
 
    - [esdoc-plugin-extends-replace](https://github.com/typhonjs-node-esdoc/esdoc-plugin-extends-replace) - An ESDoc plugin to replace unconnected "extends" tags w/ actual class references.
    - [esdoc-plugin-jspm](https://github.com/typhonjs-node-esdoc/esdoc-plugin-jspm) - A plugin for ESDoc that enables end to end documentation linking JSPM / SystemJS managed packages in addition to a source root. 
+   - [esdoc-plugin-jspm-dependency-graph](https://github.com/typhonjs-node-esdoc/esdoc-plugin-jspm-dependency-graph) - A plugin for ESDoc that enables end to end documentation linking JSPM / SystemJS managed packages creating package dependency graphs w/ D3
    - [typhonjs-node-esdoc](https://github.com/typhonjs-node-esdoc/typhonjs-node-esdoc) - Provides a NPM module combining ESDoc with all plugins available.
 
 [typhonjs-node-gulp](https://github.com/typhonjs-node-gulp) - Provides NPM modules for various Gulp tasks.
@@ -101,13 +102,14 @@ Below is an overview of all of the TyphonJS organizations / repos as of March 7t
 [typhonjs-node-jspm](https://github.com/typhonjs-node-jspm) - Provides utility NPM modules for interfacing with JSPM / SystemJS.
 
    - [typhonjs-config-jspm-parse](https://github.com/typhonjs-node-jspm/typhonjs-config-jspm-parse) - Provides a NPM module to parse dependencies from JSPM entries in `package.json` and `config.js` via an instance of SystemJS / SystemJS Loader.
+   - [typhonjs-istanbul-instrument-jspm](https://github.com/typhonjs-node-jspm/typhonjs-istanbul-instrument-jspm) - Provides a NPM module to add Istanbul instrumentation to JSPM / SystemJS by replacing the System.translate hook. 
 
-[typhonjs-node-npm](https://github.com/typhonjs-node-npm) - Provides various NPM modules / scripts including build / testing modules.
+[typhonjs-node-npm-scripts](https://github.com/typhonjs-node-npm-scripts) - Provides various NPM modules / scripts including build / testing modules.
 
-   - [typhonjs-npm-build-test](https://github.com/typhonjs-node-npm/typhonjs-npm-build-test) - Provides a unified set of NPM scripts and dependencies for building and testing ES6+ NPM modules for TyphonJS and beyond.
-   - [typhonjs-npm-scripts-build-babel](https://github.com/typhonjs-node-npm/typhonjs-npm-scripts-build-babel) - Provides NPM scripts for building ES6+ projects using Babel for all TyphonJS NPM modules and beyond.
-   - [typhonjs-npm-scripts-publish](https://github.com/typhonjs-node-npm/typhonjs-npm-scripts-publish) - Provides NPM scripts for pre-publish & publish actions for TyphonJS NPM modules and beyond.
-   - [typhonjs-npm-scripts-test-mocha](https://github.com/typhonjs-node-npm/typhonjs-npm-scripts-test-mocha) - Provides NPM scripts for testing projects using Istanbul & Mocha for all TyphonJS NPM modules and beyond.
+   - [typhonjs-npm-build-test](https://github.com/typhonjs-node-npm-scripts/typhonjs-npm-build-test) - Provides a unified set of NPM scripts and dependencies for building and testing ES6+ NPM modules for TyphonJS and beyond.
+   - [typhonjs-npm-scripts-build-babel](https://github.com/typhonjs-node-npm-scripts/typhonjs-npm-scripts-build-babel) - Provides NPM scripts for building ES6+ projects using Babel for all TyphonJS NPM modules and beyond.
+   - [typhonjs-npm-scripts-publish](https://github.com/typhonjs-node-npm-scripts/typhonjs-npm-scripts-publish) - Provides NPM scripts for pre-publish & publish actions for TyphonJS NPM modules and beyond.
+   - [typhonjs-npm-scripts-test-mocha](https://github.com/typhonjs-node-npm-scripts/typhonjs-npm-scripts-test-mocha) - Provides NPM scripts for testing projects using Istanbul & Mocha for all TyphonJS NPM modules and beyond.
 
 [typhonjs-node-scm](https://github.com/typhonjs-node-scm) - Provides utility NPM modules for interfacing with source code management systems.
 
