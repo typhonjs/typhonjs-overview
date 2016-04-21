@@ -12,7 +12,7 @@ Below is an overview of all of the TyphonJS organizations / repos as of April 16
 
 ----------------
 
-[typhonjs](https://github.com/typhonjs) - Provides common repos for TyphonJS
+typhonjs](https://github.com/typhonjs) - Provides common repos for TyphonJS
 
    - [typhonjs-overview](https://github.com/typhonjs/typhonjs-overview) - Provides an overview of TyphonJS.
 
@@ -89,9 +89,11 @@ Below is an overview of all of the TyphonJS organizations / repos as of April 16
 
 [typhonjs-node-esdoc](https://github.com/typhonjs-node-esdoc) - Provides NPM modules for ESDoc plugins.
 
+   - [esdoc-plugin-dependency-graphs](https://github.com/typhonjs-node-esdoc/esdoc-plugin-dependency-graphs) - A plugin for ESDoc that adds interactive D3 powered dependency graphs for source code including linking JSPM / NPM managed code and packages.
+   - [esdoc-plugin-enhanced-navigation](https://github.com/typhonjs-node-esdoc/esdoc-plugin-enhanced-navigation) - Replaces the standard ESDoc left hand source navigation with an enhanced version. 
    - [esdoc-plugin-extends-replace](https://github.com/typhonjs-node-esdoc/esdoc-plugin-extends-replace) - An ESDoc plugin to replace unconnected "extends" tags w/ actual class references.
    - [esdoc-plugin-jspm](https://github.com/typhonjs-node-esdoc/esdoc-plugin-jspm) - A plugin for ESDoc that enables end to end documentation linking JSPM / SystemJS managed packages in addition to a source root. 
-   - [esdoc-plugin-jspm-dependency-graph](https://github.com/typhonjs-node-esdoc/esdoc-plugin-jspm-dependency-graph) - A plugin for ESDoc that enables end to end documentation linking JSPM / SystemJS managed packages creating package dependency graphs w/ D3
+   - [esdoc-plugin-npm](https://github.com/typhonjs-node-esdoc/esdoc-plugin-npm) - A plugin for ESDoc that enables end to end documentation linking NPM managed packages in addition to a source root.
    - [typhonjs-node-esdoc](https://github.com/typhonjs-node-esdoc/typhonjs-node-esdoc) - Provides a NPM module combining ESDoc with all plugins available.
 
 [typhonjs-node-gulp](https://github.com/typhonjs-node-gulp) - Provides NPM modules for various Gulp tasks.
