@@ -12,7 +12,7 @@ Below is an overview of all of the TyphonJS organizations / repos as of April 16
 
 ----------------
 
-typhonjs](https://github.com/typhonjs) - Provides common repos for TyphonJS
+[typhonjs](https://github.com/typhonjs) - Provides common repos for TyphonJS
 
    - [typhonjs-overview](https://github.com/typhonjs/typhonjs-overview) - Provides an overview of TyphonJS.
 
@@ -131,3 +131,4 @@ typhonjs](https://github.com/typhonjs) - Provides common repos for TyphonJS
 [typhonjs-zenhub](https://github.com/typhonjs-zenhub) - Provides a common location for all ZenHub projects tracking all repos from each major TyphonJS org category. 
 
    - [zenhub-typhonjs](https://github.com/typhonjs-zenhub/zenhub-typhonjs) - Provides a ZenHub overview of all TyphonJS orgs / repos.
+
