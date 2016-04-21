@@ -8,7 +8,7 @@ For native mobile apps TyphonJS provides a pipeline for container based deployme
 
 TyphonJS is a multi-organization / repo effort being open sourced under the MPLv2.0 license. A multi org / repo toolchain is currently in development to support TyphonJS and beyond. This approach allows various modules / components of TyphonJS to be mixed and matched more easily. In many ways TyphonJS provides the glue between various important open source development / deployment tooling along with providing additional first party components. All Javascript source code is fully documented and is modern ES6 written in a standard idiomatic style. Please bear with us while the tooling and various framework integrations are completed. Full documentation and testing resources are already provided in most repos and a universal automated documentation repo / web site will be available soon. ETA of an official public launch with tutorials and web site is Q3 '16. 
 
-Below is an overview of all of the TyphonJS organizations / repos as of April 16th 2016. 
+Below is an overview of all of the TyphonJS organizations / repos as of April 20th 2016. 
 
 ----------------
 
