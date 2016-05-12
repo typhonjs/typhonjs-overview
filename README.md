@@ -10,7 +10,7 @@ TyphonJS is a multi-organization / repo effort being open sourced under the <a h
 
 Please bear with us while the tooling and various framework integrations are completed. Full documentation and testing resources are already provided in most repos and a universal automated documentation repo / web site will be available soon. ETA of an official public launch with complete tutorials and documentation is Q3 '16. 
 
-Below is an overview of all of the TyphonJS organizations / repos as of April 20th 2016. 
+Below is an overview of all of the TyphonJS organizations / repos as of May 12th 2016. 
 
 ----------------
 
@@ -130,7 +130,11 @@ Below is an overview of all of the TyphonJS organizations / repos as of April 20
 
    - [intellij-plugin-jspm](https://github.com/typhonjs-utils/intellij-plugin-jspm) - Provides JSPM reference and path completion plugin for WebStorm, PHPStorm and other Idea family IDE supporting Javascript.
 
+[typhonjs-websites](https://github.com/typhonjs-websites) - Provides several web site resources for TyphonJS
+
+   - [docs.typhonjs.io](https://github.com/typhonjs-websites/docs.typhonjs.io) - Provides documentation for all TyphonJS repos.
+   - [typhonjs.io](https://github.com/typhonjs-websites/typhonjs.io) - The main TyphonJS website... 
+
 [typhonjs-zenhub](https://github.com/typhonjs-zenhub) - Provides a common location for all ZenHub projects tracking all repos from each major TyphonJS org category. 
 
    - [zenhub-typhonjs](https://github.com/typhonjs-zenhub/zenhub-typhonjs) - Provides a ZenHub overview of all TyphonJS orgs / repos.
-
