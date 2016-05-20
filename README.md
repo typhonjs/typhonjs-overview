@@ -10,7 +10,7 @@ TyphonJS is a multi-organization / repo effort being open sourced under the <a h
 
 Please bear with us while the tooling and various framework integrations are completed. Full documentation and testing resources are already provided in most repos and a universal automated documentation repo / web site will be available soon. ETA of an official public launch with complete tutorials and documentation is Q3 '16. 
 
-Below is an overview of all of the TyphonJS organizations / repos as of May 12th 2016. 
+Below is an overview of all of the TyphonJS organizations / repos as of May 19th 2016. 
 
 ----------------
 
@@ -89,10 +89,16 @@ Below is an overview of all of the TyphonJS organizations / repos as of May 12th
 
    - [typhonjs-config-eslint](https://github.com/typhonjs-node-config/typhonjs-config-eslint) - Provides shared ESLint configs for TyphonJS repos.
 
+[typhonjs-node-escomplex](https://github.com/typhonjs-node-escomplex) - Currently a test refactor of escomplex
+
+   - [escomplex](https://github.com/typhonjs-node-escomplex/escomplex) - Provides AST generation feeding escomplex-core
+   - [escomplex-core](https://github.com/typhonjs-node-escomplex/escomplex-core) - Provides the AST processing for complexity reports.
+
 [typhonjs-node-esdoc](https://github.com/typhonjs-node-esdoc) - Provides NPM modules for ESDoc plugins.
 
    - [esdoc-plugin-dependency-graphs](https://github.com/typhonjs-node-esdoc/esdoc-plugin-dependency-graphs) - A plugin for ESDoc that adds interactive D3 powered dependency graphs for source code including linking JSPM / NPM managed code and packages.
    - [esdoc-plugin-enhanced-navigation](https://github.com/typhonjs-node-esdoc/esdoc-plugin-enhanced-navigation) - Replaces the standard ESDoc left hand source navigation with an enhanced version. 
+   - [esdoc-plugin-escomplex](https://github.com/typhonjs-node-esdoc/esdoc-plugin-escomplex) - A plugin for ESDoc that produces complexity analysis reports via escomplex.
    - [esdoc-plugin-extends-replace](https://github.com/typhonjs-node-esdoc/esdoc-plugin-extends-replace) - An ESDoc plugin to replace unconnected "extends" tags w/ actual class references.
    - [esdoc-plugin-jspm](https://github.com/typhonjs-node-esdoc/esdoc-plugin-jspm) - A plugin for ESDoc that enables end to end documentation linking JSPM / SystemJS managed packages in addition to a source root. 
    - [esdoc-plugin-npm](https://github.com/typhonjs-node-esdoc/esdoc-plugin-npm) - A plugin for ESDoc that enables end to end documentation linking NPM managed packages in addition to a source root.
