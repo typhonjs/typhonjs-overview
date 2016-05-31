@@ -10,7 +10,7 @@ TyphonJS is a multi-organization / repo effort being open sourced under the <a h
 
 Please bear with us while the tooling and various framework integrations are completed. Full documentation and testing resources are already provided in most repos and a universal automated documentation repo / web site will be available soon. ETA of an official public launch with complete tutorials and documentation is Q3 '16. 
 
-Below is an overview of all of the TyphonJS organizations / repos as of May 19th 2016. 
+Below is an overview of all of the TyphonJS organizations / repos as of May 31st 2016. 
 
 ----------------
 
@@ -85,14 +85,23 @@ Below is an overview of all of the TyphonJS organizations / repos as of May 19th
    - [typhonjs-core-asteroid-init](https://github.com/typhonjs-meteor-ddp-client/typhonjs-core-asteroid-init)
    - [typhonjs-core-socket-ddp](https://github.com/typhonjs-meteor-ddp-client/typhonjs-core-socket-ddp) - Provides a Javascript DDP client
 
+[typhonjs-node-ast](https://github.com/typhonjs-node-ast) - Provides utility NPM modules for working with Javascript / AST.
+
+   - [typhonjs-ast-walker](https://github.com/typhonjs-node-ast/typhonjs-ast-walker) - Provides basic iteration through all nodes and children for Javascript AST trees. 
+
 [typhonjs-node-config](https://github.com/typhonjs-node-config) - Provides utility NPM modules for configuration data.
 
    - [typhonjs-config-eslint](https://github.com/typhonjs-node-config/typhonjs-config-eslint) - Provides shared ESLint configs for TyphonJS repos.
 
-[typhonjs-node-escomplex](https://github.com/typhonjs-node-escomplex) - Currently a test refactor of escomplex
+[typhonjs-node-escomplex](https://github.com/typhonjs-node-escomplex) - Next generation complexity reporting for Javascript based on babylon, but supporting all major AST generators.
 
    - [escomplex](https://github.com/typhonjs-node-escomplex/escomplex) - Provides AST generation feeding escomplex-core
    - [escomplex-core](https://github.com/typhonjs-node-escomplex/escomplex-core) - Provides the AST processing for complexity reports.
+   - [escomplex-core-commons](https://github.com/typhonjs-node-escomplex/escomplex-core-commons) - Provides core common utilities for escomplex-core and plugins
+   - [escomplex-plugin-metrics-module](https://github.com/typhonjs-node-escomplex/escomplex-plugin-metrics-module) - Provides the core module metric / report generation for ESComplex.
+   - [escomplex-plugin-metrics-project](https://github.com/typhonjs-node-escomplex/escomplex-plugin-metrics-project) - Provides the core project metric / report generation for ESComplex.
+   - [escomplex-plugin-syntax-babylon](https://github.com/typhonjs-node-escomplex/escomplex-plugin-syntax-babylon) - Provides an ESComplex plugin which loads syntax definitions for trait resolution for unique Babylon AST not found in ESTree.
+   - [escomplex-plugin-syntax-estree](https://github.com/typhonjs-node-escomplex/escomplex-plugin-syntax-estree) - Provides an ESComplex plugin which loads syntax definitions for trait resolution for ESTree AST.
 
 [typhonjs-node-esdoc](https://github.com/typhonjs-node-esdoc) - Provides NPM modules for ESDoc plugins.
 
