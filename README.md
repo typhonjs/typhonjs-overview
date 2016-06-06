@@ -10,7 +10,7 @@ TyphonJS is a multi-organization / repo effort being open sourced under the <a h
 
 Please bear with us while the tooling and various framework integrations are completed. Full documentation and testing resources are already provided in most repos and a universal automated documentation repo / web site will be available soon. ETA of an official public launch with complete tutorials and documentation is Q3 '16. 
 
-Below is an overview of all of the TyphonJS organizations / repos as of May 31st 2016. 
+Below is an overview of all of the TyphonJS organizations / repos as of June 5th 2016. 
 
 ----------------
 
@@ -87,7 +87,7 @@ Below is an overview of all of the TyphonJS organizations / repos as of May 31st
 
 [typhonjs-node-ast](https://github.com/typhonjs-node-ast) - Provides utility NPM modules for working with Javascript / AST.
 
-   - [typhonjs-ast-walker](https://github.com/typhonjs-node-ast/typhonjs-ast-walker) - Provides basic iteration through all nodes and children for Javascript AST trees. 
+   - [typhonjs-ast-walker](https://github.com/typhonjs-node-ast/typhonjs-ast-walker) - Provides a simple Javascript AST traversal utility that traverses all nodes / children regardless of type.
 
 [typhonjs-node-config](https://github.com/typhonjs-node-config) - Provides utility NPM modules for configuration data.
 
@@ -105,6 +105,7 @@ Below is an overview of all of the TyphonJS organizations / repos as of May 31st
 
 [typhonjs-node-esdoc](https://github.com/typhonjs-node-esdoc) - Provides NPM modules for ESDoc plugins.
 
+   - [esdoc](https://github.com/typhonjs-node-esdoc/esdoc) - A maintained fork of ESDoc - good documentation for JavaScript(ES2015)
    - [esdoc-plugin-dependency-graphs](https://github.com/typhonjs-node-esdoc/esdoc-plugin-dependency-graphs) - A plugin for ESDoc that adds interactive D3 powered dependency graphs for source code including linking JSPM / NPM managed code and packages.
    - [esdoc-plugin-enhanced-navigation](https://github.com/typhonjs-node-esdoc/esdoc-plugin-enhanced-navigation) - Replaces the standard ESDoc left hand source navigation with an enhanced version. 
    - [esdoc-plugin-escomplex](https://github.com/typhonjs-node-esdoc/esdoc-plugin-escomplex) - A plugin for ESDoc that produces complexity analysis reports via escomplex.
@@ -128,6 +129,7 @@ Below is an overview of all of the TyphonJS organizations / repos as of May 31st
    - [typhonjs-npm-build-test](https://github.com/typhonjs-node-npm-scripts/typhonjs-npm-build-test) - Provides a unified set of NPM scripts and dependencies for building and testing ES6+ NPM modules for TyphonJS and beyond.
    - [typhonjs-npm-scripts-build-babel](https://github.com/typhonjs-node-npm-scripts/typhonjs-npm-scripts-build-babel) - Provides NPM scripts for building ES6+ projects using Babel for all TyphonJS NPM modules and beyond.
    - [typhonjs-npm-scripts-publish](https://github.com/typhonjs-node-npm-scripts/typhonjs-npm-scripts-publish) - Provides NPM scripts for pre-publish & publish actions for TyphonJS NPM modules and beyond.
+   - [typhonjs-npm-scripts-runner](https://github.com/typhonjs-node-npm-scripts/typhonjs-npm-scripts-runner) - Provides an NPM module and script which will load a JSON file searching for an Array entry then executes the scripts. 
    - [typhonjs-npm-scripts-test-mocha](https://github.com/typhonjs-node-npm-scripts/typhonjs-npm-scripts-test-mocha) - Provides NPM scripts for testing projects using Istanbul & Mocha for all TyphonJS NPM modules and beyond.
 
 [typhonjs-node-scm](https://github.com/typhonjs-node-scm) - Provides utility NPM modules for interfacing with source code management systems.
