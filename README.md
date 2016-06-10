@@ -96,11 +96,11 @@ Below is an overview of all of the TyphonJS organizations / repos as of June 10t
 [typhonjs-node-escomplex](https://github.com/typhonjs-node-escomplex) - Next generation complexity reporting for Javascript based on babylon, but supporting all major AST generators.
 
    - [escomplex-plugin-metrics-module](https://github.com/typhonjs-node-escomplex/escomplex-plugin-metrics-module) - Provides the core module metric / report generation plugin for typhonjs-escomplex module processing.
-   - [escomplex-plugin-metrics-project](https://github.com/typhonjs-node-escomplex/escomplex-plugin-metrics-project) - Provides the core module metric / report generation plugin for typhonjs-escomplex module processing.
+   - [escomplex-plugin-metrics-project](https://github.com/typhonjs-node-escomplex/escomplex-plugin-metrics-project) - Provides the core project metric / report generation plugin for typhonjs-escomplex project processing.
    - [escomplex-plugin-syntax-babylon](https://github.com/typhonjs-node-escomplex/escomplex-plugin-syntax-babylon) - Provides a plugin for typhonjs-escomplex module processing which loads syntax definitions for trait resolution for Babylon AST.
    - [escomplex-plugin-syntax-estree](https://github.com/typhonjs-node-escomplex/escomplex-plugin-syntax-estree) - Provides a plugin for typhonjs-escomplex module processing which loads syntax definitions for trait resolution for ESTree AST.
-   - [typhonjs-escomplex](https://github.com/typhonjs-node-escomplex/typhonjs-escomplex) - Provides AST generation feeding escomplex-core
-   - [typhonjs-escomplex-commons](https://github.com/typhonjs-node-escomplex/typhonjs-escomplex-commons) - Provides core common utilities for escomplex-core and plugins
+   - [typhonjs-escomplex](https://github.com/typhonjs-node-escomplex/typhonjs-escomplex) - Next generation complexity reporting for Javascript based on babylon.
+   - [typhonjs-escomplex-commons](https://github.com/typhonjs-node-escomplex/typhonjs-escomplex-commons) - Provides core common utilities for typhonjs-escomplex plugins including trait resolution.
    - [typhonjs-escomplex-module](https://github.com/typhonjs-node-escomplex/typhonjs-escomplex-module) - Provides module / individual file oriented AST processing for typhonjs-escomplex complexity reports.
    - [typhonjs-escomplex-project](https://github.com/typhonjs-node-escomplex/typhonjs-escomplex-project) - Provides project oriented AST processing for typhonjs-escomplex complexity reports.
 
