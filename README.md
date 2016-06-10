@@ -10,7 +10,7 @@ TyphonJS is a multi-organization / repo effort being open sourced under the <a h
 
 Please bear with us while the tooling and various framework integrations are completed. Full documentation and testing resources are already provided in most repos and a universal automated documentation repo / web site will be available soon. ETA of an official public launch with complete tutorials and documentation is Q3 '16. 
 
-Below is an overview of all of the TyphonJS organizations / repos as of June 5th 2016. 
+Below is an overview of all of the TyphonJS organizations / repos as of June 10th 2016. 
 
 ----------------
 
@@ -95,13 +95,14 @@ Below is an overview of all of the TyphonJS organizations / repos as of June 5th
 
 [typhonjs-node-escomplex](https://github.com/typhonjs-node-escomplex) - Next generation complexity reporting for Javascript based on babylon, but supporting all major AST generators.
 
-   - [escomplex](https://github.com/typhonjs-node-escomplex/escomplex) - Provides AST generation feeding escomplex-core
-   - [escomplex-core](https://github.com/typhonjs-node-escomplex/escomplex-core) - Provides the AST processing for complexity reports.
-   - [escomplex-core-commons](https://github.com/typhonjs-node-escomplex/escomplex-core-commons) - Provides core common utilities for escomplex-core and plugins
-   - [escomplex-plugin-metrics-module](https://github.com/typhonjs-node-escomplex/escomplex-plugin-metrics-module) - Provides the core module metric / report generation for ESComplex.
-   - [escomplex-plugin-metrics-project](https://github.com/typhonjs-node-escomplex/escomplex-plugin-metrics-project) - Provides the core project metric / report generation for ESComplex.
-   - [escomplex-plugin-syntax-babylon](https://github.com/typhonjs-node-escomplex/escomplex-plugin-syntax-babylon) - Provides an ESComplex plugin which loads syntax definitions for trait resolution for unique Babylon AST not found in ESTree.
-   - [escomplex-plugin-syntax-estree](https://github.com/typhonjs-node-escomplex/escomplex-plugin-syntax-estree) - Provides an ESComplex plugin which loads syntax definitions for trait resolution for ESTree AST.
+   - [escomplex-plugin-metrics-module](https://github.com/typhonjs-node-escomplex/escomplex-plugin-metrics-module) - Provides the core module metric / report generation plugin for typhonjs-escomplex module processing.
+   - [escomplex-plugin-metrics-project](https://github.com/typhonjs-node-escomplex/escomplex-plugin-metrics-project) - Provides the core module metric / report generation plugin for typhonjs-escomplex module processing.
+   - [escomplex-plugin-syntax-babylon](https://github.com/typhonjs-node-escomplex/escomplex-plugin-syntax-babylon) - Provides a plugin for typhonjs-escomplex module processing which loads syntax definitions for trait resolution for Babylon AST.
+   - [escomplex-plugin-syntax-estree](https://github.com/typhonjs-node-escomplex/escomplex-plugin-syntax-estree) - Provides a plugin for typhonjs-escomplex module processing which loads syntax definitions for trait resolution for ESTree AST.
+   - [typhonjs-escomplex](https://github.com/typhonjs-node-escomplex/typhonjs-escomplex) - Provides AST generation feeding escomplex-core
+   - [typhonjs-escomplex-commons](https://github.com/typhonjs-node-escomplex/typhonjs-escomplex-commons) - Provides core common utilities for escomplex-core and plugins
+   - [typhonjs-escomplex-module](https://github.com/typhonjs-node-escomplex/typhonjs-escomplex-module) - Provides module / individual file oriented AST processing for typhonjs-escomplex complexity reports.
+   - [typhonjs-escomplex-project](https://github.com/typhonjs-node-escomplex/typhonjs-escomplex-project) - Provides project oriented AST processing for typhonjs-escomplex complexity reports.
 
 [typhonjs-node-esdoc](https://github.com/typhonjs-node-esdoc) - Provides NPM modules for ESDoc plugins.
 
@@ -131,6 +132,11 @@ Below is an overview of all of the TyphonJS organizations / repos as of June 5th
    - [typhonjs-npm-scripts-publish](https://github.com/typhonjs-node-npm-scripts/typhonjs-npm-scripts-publish) - Provides NPM scripts for pre-publish & publish actions for TyphonJS NPM modules and beyond.
    - [typhonjs-npm-scripts-runner](https://github.com/typhonjs-node-npm-scripts/typhonjs-npm-scripts-runner) - Provides an NPM module and script which will load a JSON file searching for an Array entry then executes the scripts. 
    - [typhonjs-npm-scripts-test-mocha](https://github.com/typhonjs-node-npm-scripts/typhonjs-npm-scripts-test-mocha) - Provides NPM scripts for testing projects using Istanbul & Mocha for all TyphonJS NPM modules and beyond.
+
+[typhonjs-node-plugin](https://github.com/typhonjs-node-plugin) - Provides a generic plugin infrastructure
+
+   - [typhonjs-plugin-loader](https://github.com/typhonjs-node-plugin/typhonjs-plugin-loader) - Provides generic plugin loading from installed node modules or directly from the file system.
+   - [typhonjs-plugin-manager](https://github.com/typhonjs-node-plugin/typhonjs-plugin-manager) - Provides a plugin manager that dispatches events to loaded plugins
 
 [typhonjs-node-scm](https://github.com/typhonjs-node-scm) - Provides utility NPM modules for interfacing with source code management systems.
 
